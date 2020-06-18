@@ -1,3 +1,5 @@
 *.jpg
 *.mp4
-!website-lifestyle-video.mp4
+plans/
+assets/
+!assets/website-lifestyle-video.mp4
