@@ -1,0 +1,46 @@
+		<form class="inquiry-form">
+			<div class="form-section-1">
+				<div class="form-flex-row">
+					<!-- <label for="form-name">Name: </label> -->
+					<input placeholder="Name" type="text" id="form-name" name="name"></input>
+					<!-- <label for="form-phonenumber">Phone Number</label> -->
+					<input placeholder="Phone Number" type="text" id="form-phonenumber" name="phonenumber"></input>
+				</div>
+				<!-- <label for="form-email">Enter your email</label> -->
+				<div class="form-flex-row">
+					<input placeholder="Enter your email" type="text" id="form-email" name="email"></input>
+				</div>
+			</div>
+			<div class="form-section-2">
+				<div class="option-1">
+					<!-- <label for="form-preexisting-rental-service-url">Your Airbnb/VRBO Url</label> -->
+					<input placeholder="Your Airbnb/VRBO Url" type="text" id="form-preexisting-rental-service-url" name="preexisting-rental-service-url"></input>
+				</div>
+				<div class="separator">
+					<p class="or">Or</p>
+				</div>
+				<div class="option-2">
+					<div class="form-flex-row">
+						<!-- <label for="form-bedroom-num">Bedroom #</label> -->
+						<input placeholder="Bedroom #" type="text" id="form-bedroom-num" name="bedroom-num"></input>
+						<!-- <label for="form-yrbuild">Yr Build</label> -->
+						<input placeholder="Yr Build" type="text" id="form-yrbuild" name="yrbuild"></input>
+					</div>
+					<div class="form-flex-row">
+						<!-- <label for="form-bathroom-num">Bathroom #</label> -->
+						<input placeholder="Bathroom #" type="text" id="form-bathroom-num" name="bathroom-num"></input>
+						<!-- <label for="form-city">City</label> -->
+						<input placeholder="City" type="text" id="form-city" name="city"></input>
+					</div>
+					<div class="form-flex-row">
+						<!-- <label for="form-sq-ft">Sq Ft</label> -->
+						<input placeholder="Sq Ft" type="text" id="form-sq-ft" name="sq-ft"></input>
+						<!-- <label for="form-zip-code">Zip Code</label> -->
+						<input placeholder="Zip Code" type="text" id="form-zip-code" name="zip-code"></input>
+					</div>
+				</div>
+			</div>
+			<div class="submit-container">
+				<input class="form-submit" value="Submit" type="submit"></input>
+			</div>
+		</form>
